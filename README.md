@@ -97,7 +97,16 @@ L'application propose trois tableaux de bord différents selon le rôle de l'uti
 4. Configurez les paramètres de connexion à la base de données dans le fichier `config.php`.
 
 
-## Contributeurs
-- [Hassan AIT-JABLI](https://github.com/hassanjebli)
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+
+## Contact
+
+HASSAN AIT-JABLI - [hassanjebli2002@gmail.com](mailto:hassanjebli2002@gmail.com)
+
+Project Link: [https://github.com/hassankebli/todo-list-app](https://github.com/hassankebli/todo-list-app)
 
 
