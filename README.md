@@ -56,17 +56,36 @@ L'objectif de ce projet est de créer un système d'information pour les hôtels
 ## Tableaux de Bord
 L'application propose trois tableaux de bord différents selon le rôle de l'utilisateur :
 
-### Admin
-- Gestion complète des clients, chambres, réservations, et configuration.
-- Accès à toutes les fonctionnalités de l'application.
+![login](https://github.com/hassanjebli/gestion-reservation-hotel/assets/151209380/a320ed96-59b5-4425-9dc7-1b3c256ebffa)
+
+
+### manager
+- Suivi des réservations
+- Consultation de planning des réservations
+- Gestion des comptes utilisateurs d’application :
+  - Création/modification/suppression et affichage des comptes.
+  - Activation et blocage des comptes des utilisateurs.
+
+- ![manager](https://github.com/hassanjebli/gestion-reservation-hotel/assets/151209380/6b4078ae-a9ef-4b2b-9d5e-16a716560e4b)
+
 
 ### Réceptionniste
-- Gestion des clients et des réservations.
-- Accès limité à la gestion des chambres et des configurations.
+- Gestion des clients.
+- Gestion des chambres
+- Gestion de configuration :
+  - Gestion des tarifs des chambres
+  - Gestion des types des chambres.
+  - Gestion des capacités des chambres.
+- Gestion des réservations des chambres. 
+
+- ![receptionist](https://github.com/hassanjebli/gestion-reservation-hotel/assets/151209380/1710f4ad-de40-4dd0-92cf-aba54d8ab23f)
+
 
 ### Caissier
-- Gestion des paiements et des factures.
-- Consultation des réservations pour traitement des paiements.
+- Gestion de paiement des réservations.
+
+- ![caissier](https://github.com/hassanjebli/gestion-reservation-hotel/assets/151209380/416eb30d-6783-4e37-bf1f-5e622a47efb8)
+
 
 ### Étapes
 1. Clonez le dépôt sur votre machine locale :
@@ -77,10 +96,6 @@ L'application propose trois tableaux de bord différents selon le rôle de l'uti
 3. Importez le fichier `database.sql` dans votre base de données MySQL.
 4. Configurez les paramètres de connexion à la base de données dans le fichier `config.php`.
 
-## Utilisation
-1. Accédez à l'application via votre navigateur web.
-2. Utilisez le menu de navigation pour accéder aux différentes sections de l'application (clients, chambres, réservations, etc.).
-3. Suivez les instructions à l'écran pour gérer les réservations de chambres.
 
 ## Contributeurs
 - [Hassan AIT-JABLI](https://github.com/hassanjebli)
