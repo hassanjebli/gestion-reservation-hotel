@@ -97,10 +97,6 @@ L'application propose trois tableaux de bord différents selon le rôle de l'uti
 4. Configurez les paramètres de connexion à la base de données dans le fichier `config.php`.
 
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 
 
 ## Contact
